@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> RYUG history </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous">
+    <link href="../css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Joti+One&family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="d-flex align-items-center justify-content-between">
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link nav-item" href="login.html">login</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link nav-item" href="store.html">store</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link nav-item" href="discount.html">discount</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link nav-item active" aria-current="page" href="history.html">history</a>
+            </li>
+        </ul>
+        <div class="joti-one-regular" id="logo">RYUG</div>
+    </header>
+    <div class="container-fluid text-center">
+        <div class="row g-5 align-items-center">
+            <div class="col-12 col-md-2">
+                <figure id="advertisement">
+                    <video autoplay loop>
+                        <source src="../static/video/phoneAd.mp4" type="video/mp4" >
+                        Video not supported.
+                    </video>
+                    <figcaption>Ad.</figcaption>
+                </figure>
+            </div>
+            <div class="col-12 col-md-8">
+                <h1 id="history-header"> Welcome to the <span id="logo"> Store </span></h1>
+                <form class="d-flex mb-3" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search store" aria-label="Search store">
+                    <button class="btn btn-primary" type="submit">Search</button>
+                </form>
+                <table id="store-table" class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">Image</th>
+                            <th scope="col">Title</th>
+                            <th scope="col">Price</th>
+                            <th scope="col"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img id="item-image" src="../static/images/UglyStuffedAniaml.jpg" alt="Failed to load advertisement"></td>
+                            <td> Ugly Stuffed Animal </td>
+                            <td>💲50 </td>
+                            <td><button type="button" class="btn btn-primary">🛒 Buy</button></td>
+                        </tr>
+                        <tr>
+                            <td><img id="item-image" src="../static/images/UglyHat.jpg" alt="Failed to load advertisement"></td>
+                            <td> RYUG hat </td>
+                            <td> 💲5</td>
+                            <td><button type="button" class="btn btn-primary">🛒 Buy</button></td>
+                        </tr>
+                        <tr>
+                            <td><img id="item-image" src="../static/images/UglyShirt.jpg" alt="Failed to load advertisement"></td>
+                            <td> RYUG shirt </td>
+                            <td> 💲100 </td>
+                            <td><button type="button" class="btn btn-primary">🛒 Buy</button></td>
+                        </tr>
+                         <tr>
+                            <td><img id="item-image" src="../static/images/TV.jpg" alt="Failed to load advertisement"></td>
+                            <td> TV </td>
+                            <td> 💲2,000</td>
+                            <td><button type="button" class="btn btn-primary">🛒 Buy</button></td>
+                        </tr>
+                         <tr>
+                            <td><img id="item-image" src="../static/images/UglyBike.jpg" alt="Failed to load advertisement"></td>
+                            <td> Bicycle </td>
+                            <td> 💲500 </td>
+                            <td><button type="button" class="btn btn-primary">🛒 Buy</button></td>
+                        </tr>
+                         <tr>
+                            <td><img id="item-image" src="../static/images/UglyScarf.jpg" alt="Failed to load advertisement"></td>
+                            <td> Highly Expensive Scarf </td>
+                            <td> 💲1,000 </td>
+                            <td><button type="button" class="btn btn-primary">🛒 Buy</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p></p>
+            </div>
+            <div class="col-12 col-md-2">
+                <figure id="advertisement">
+                    <img src="../static/images/parfum.jpg" alt="Failed to load advertisement">
+                    <figcaption>Ad.</figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="../js/text-scroll.js"></script>
+</html>
